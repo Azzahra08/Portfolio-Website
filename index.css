@@ -1,0 +1,70 @@
+header{
+    display:flex;
+    justify-content:space-between;
+    padding-right: 10%;
+}
+.leftheader{
+    padding-top: 1.7%;
+    padding-left: 4%;
+}
+.rightheader{
+    display:flex;
+    padding-top: 0%;
+    padding-right: 1%;
+}
+.kotak{
+    border: 1px solid black;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-right: 10%;
+    padding-left:10%;
+    white-space: nowrap;
+}
+.homeleft{
+    padding-left:10%;
+}
+.formpic{
+    display:flex;
+    justify-content: space-between;
+}
+.homeright{
+    display:flex;
+    justify-content:space-between;
+    padding-right: 10%;
+}
+@media only screen and (max-width: 600px){
+    header{
+        flex-direction: column;
+    }
+    .rightheader{
+        width: 100%;
+        flex-direction: column;
+        margin-left: 85%;
+    }
+    .leftheader{
+        margin-bottom: 14px;
+        padding-left: 150px;
+        margin-left: 100%;
+    }
+    #pertama{
+        padding-left:245px;
+    }
+    #tengah{
+        padding-left: 220px;
+    }
+    #ketiga{
+        padding-left:238px;
+    }
+    #sub{
+        white-space: nowrap;
+        text-align: center;
+    }
+    #title{
+        margin-left: 42%;
+    }
+}
+    
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('path/ke/font/Inconsolata.ttf') format('truetype');
+}
